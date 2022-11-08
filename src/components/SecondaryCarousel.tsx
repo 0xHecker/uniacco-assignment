@@ -24,13 +24,13 @@ export function SecondaryCarousel() {
 
 	return (
 		<>
-			<h1>
+			<h2>
 				Plan a trip with help from local Hosts around the
 				world
-			</h1>
+			</h2>
 			<Carousel
-				slideSize="20%"
-				slideGap="xl"
+				slideSize="15%"
+				slideGap="md"
 				align="start"
 				slidesToScroll={mobile ? 1 : 2}
 				breakpoints={[
