@@ -10,7 +10,8 @@ export default function App() {
 			<Page>
 				<MainCarousel />
 				<TextCarousel />
-				<SecondaryCarousel></SecondaryCarousel>
+				<SecondaryCarousel />
+				<SecondaryCarousel />
 			</Page>
 		</MantineProvider>
 	);

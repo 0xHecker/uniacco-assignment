@@ -1,4 +1,3 @@
-import { Paper, Text, Title, Button } from '@mantine/core';
 import { secondaryCarousalStyles } from '../styles/secondaryCarouselStyles';
 import { StarSVG } from '../svg/star';
 

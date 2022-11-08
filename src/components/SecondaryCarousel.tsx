@@ -1,7 +1,6 @@
 import { Carousel } from '@mantine/carousel';
 import { useMediaQuery } from '@mantine/hooks';
 import { useMantineTheme } from '@mantine/core';
-import { mainCardData } from '../consts/mainCardData';
 import { SecondaryCard } from './SecondaryCard';
 import { secondaryCardData } from '../consts/secondaryCardData';
 

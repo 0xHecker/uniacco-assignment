@@ -19,16 +19,6 @@ export const secondaryCarousalStyles = createStyles(
 
 		price: {},
 
-		card: {
-			height: '100%',
-			display: 'flex',
-			flexDirection: 'column',
-			justifyContent: 'space-between',
-			alignItems: 'flex-start',
-			backgroundSize: 'cover',
-			backgroundPosition: 'center',
-		},
-
 		title: {
 			fontFamily: `Greycliff CF, ${theme.fontFamily}`,
 			fontWeight: 400,
@@ -38,12 +28,6 @@ export const secondaryCarousalStyles = createStyles(
 			marginTop: theme.spacing.xs,
 			marginBottom: theme.spacing.xs,
 			maxWidth: '80%',
-		},
-
-		category: {
-			color: theme.white,
-			opacity: 0.7,
-			fontWeight: 400,
 		},
 	})
 );
