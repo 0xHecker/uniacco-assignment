@@ -40,6 +40,8 @@ const navStyles = createStyles((theme) => ({
 		[theme.fn.smallerThan('xl')]: {
 			borderLeft: 'solid grey 0px',
 			marginTop: '1rem',
+			marginLeft: '0',
+			width: '100%',
 		},
 	},
 	carouselBtns: {
